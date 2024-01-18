@@ -4,11 +4,11 @@ services:
   db:
     image: mysql
     restart: always
-    container_name: zeynep-db
+    container_name: root
     environment:
       MYSQL_ROOT_PASSWORD: 189762
-      MYSQL_DATABASE: zeynep-db
-      MYSQL_USER: zeynep
-      MYSQL_PASSWORD: zeynep
+      MYSQL_DATABASE: zeynep_db
+      MYSQL_USER: root
+      MYSQL_PASSWORD: 189762
     ports:
       - '3307:3306'
